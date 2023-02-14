@@ -2,40 +2,24 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+The purpose of this project was to create a password generator that would prompt the user for multiple character types to use. Upon clicking on the generate button, the users password would show. I learned how to do this in a variety of ways, through class and the tutoring session. As well as doing outside research to assist me into thinking of different routes of approach.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+In order to access the website click on the link: https://alexdcp.github.io/Password-Generator/
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Once you access the website, you must navigate through the prompts and click "generate" in order to create the password according to selections made. Once you have done so, the site should look something like:
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    
+    ![Screenshot](./assets/images/screenshot.png)
+    
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+I received help from my tutor, Jaytee Padilla who I unfortunately do not have a link to his grubhub. I also received help from multiple stack overflow threads and MDN.
