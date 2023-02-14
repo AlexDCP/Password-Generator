@@ -6,7 +6,7 @@ if (passwordLength < 8 || passwordLength > 128) {
     passwordLength = parseInt(prompt("Password length must be at least 8 characters, and no greater than 128. Enter password length:"));
 };
 
-
+// These are the prompts that will store the boolean value for the needed characters in the password
 var passgen = confirm("Would you like to generate a password?");
 var numbers = confirm("Would you like numbers?");
 var specChars = confirm("Would you like special characters?");
