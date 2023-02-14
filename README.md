@@ -9,6 +9,8 @@ The purpose of this project was to create a password generator that would prompt
 
 In order to access the website click on the link: https://alexdcp.github.io/Password-Generator/
 
+To see my github you can view here: https://github.com/AlexDCP
+
 
 ## Usage
 
@@ -17,7 +19,7 @@ Once you access the website, you must navigate through the prompts and click "ge
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
     
-    ![Screenshot](./assets/images/screenshot.png)
+![Screenshot](./assets/images/screenshot.png)
     
 
 ## Credits

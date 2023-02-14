@@ -7,14 +7,13 @@ if (passwordLength < 8 || passwordLength > 128) {
 };
 
 
-
-
 var passgen = confirm("Would you like to generate a password?");
 var numbers = confirm("Would you like numbers?");
 var specChars = confirm("Would you like special characters?");
 var lwrcase = confirm("Would you like lower case?");
 var uprcase = confirm("Would you like uppercase?");
 
+// These are the variables for what boolean values were given above
 var characterSet = "";
 
 if (numbers) {
@@ -33,7 +32,7 @@ if (uprcase) {
   characterSet += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 }
 
-
+// This is the function to use the variable's stored values from above to generate the randomized part of the password
 function generatePassword() {
   var splitCharacterSet = characterSet.split("");
   var generatedPassword = "";
