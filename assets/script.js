@@ -2,7 +2,7 @@
 var passwordLength;
 passwordLength = parseInt(prompt("Enter password length (min 8 characters):"), 10);
 
-if (passwordLength < 8 || passwordLength > 128) {
+while (passwordLength < 8 || passwordLength > 128) {
     passwordLength = parseInt(prompt("Password length must be at least 8 characters, and no greater than 128. Enter password length:"));
 };
 
